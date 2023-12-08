@@ -1,0 +1,27 @@
+---
+import Main from "../components/Main.vue";
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+    <title>@Dissiprorio - links</title>
+	</head>
+  <body>
+    <Main />
+  </body>
+  <style>
+html {
+  --s: 120px; /* control the size*/
+  
+  --_g: radial-gradient(#0000 70%,#fdfaf2 71%);
+  background:
+    var(--_g),var(--_g) calc(var(--s)/2) calc(var(--s)/2),
+    conic-gradient(#FCCBAB 25%,#423f4a 0 50%,#dcbda8 0 75%,#efe3dd 0);
+  background-size: var(--s) var(--s); 
+}
+  </style>
+</html>
